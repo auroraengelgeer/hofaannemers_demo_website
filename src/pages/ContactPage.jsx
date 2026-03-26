@@ -22,9 +22,6 @@ export function ContactPage() {
             <p>
               <strong>E-mail:</strong> {siteSettings.email}
             </p>
-            <p>
-              <strong>Werkgebied:</strong> {siteSettings.address}
-            </p>
           </div>
           <ContactForm />
         </div>

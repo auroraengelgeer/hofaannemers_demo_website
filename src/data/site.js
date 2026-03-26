@@ -3,7 +3,7 @@ export const siteSettings = {
   tagline: "Uw klus, onze verantwoordelijkheid",
   phone: "+31 6 21 95 41 49",
   email: "info@hofaannemers.nl",
-  address: "Amsterdam en omgeving",
+  address: "Rotterdam en omgeving",
   socials: [
     { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61555641060987" },
     { label: "Instagram", href: "https://www.instagram.com/hofaannemers/" },
