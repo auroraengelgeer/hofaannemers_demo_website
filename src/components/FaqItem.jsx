@@ -12,7 +12,9 @@ export function FaqItem({ item, defaultOpen = false }) {
         aria-expanded={open}
       >
         <span>{item.question}</span>
-        <span className="faq-item__icon">{open ? "−" : "+"}</span>
+        <span className="faq-item__icon" aria-hidden="true">
+          {open ? "\u2212" : "+"}
+        </span>
       </button>
 
       {open ? <p className="faq-item__answer">{item.answer}</p> : null}

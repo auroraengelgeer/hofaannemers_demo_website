@@ -27,8 +27,15 @@ a {
   text-decoration: none;
 }
 
-button {
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
   font: inherit;
+  color: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 #root {

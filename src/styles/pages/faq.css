@@ -23,6 +23,10 @@
   background: transparent;
   text-align: left;
   cursor: pointer;
+  color: #15212c;
+  font: inherit;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .faq-item__question span:first-child {
@@ -33,6 +37,7 @@
 .faq-item__icon {
   font-size: 1.5rem;
   color: #b88b54;
+  line-height: 1;
 }
 
 .faq-item__answer {
