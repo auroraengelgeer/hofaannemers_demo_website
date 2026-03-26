@@ -1,0 +1,53 @@
+.contact-layout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 18px;
+}
+
+.contact-form__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.contact-form label {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid rgba(21, 33, 44, 0.16);
+  border-radius: 4px;
+  background: #fffdfa;
+  color: #15212c;
+}
+
+.contact-form__full {
+  grid-column: 1 / -1;
+}
+
+.contact-details p {
+  margin: 0 0 12px;
+  color: rgba(21, 33, 44, 0.82);
+}
+
+.contact-form .contact-strip__button {
+  margin-top: 6px;
+  justify-self: flex-start;
+  min-width: 160px;
+  border: 0;
+  cursor: pointer;
+  padding: 12px 22px;
+  background: #15212c;
+  color: #f8f4ee;
+}

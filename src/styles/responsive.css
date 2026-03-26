@@ -1,0 +1,60 @@
+@media (max-width: 980px) {
+  .project-grid,
+  .detail-layout,
+  .service-grid,
+  .contact-layout,
+  .feature-list,
+  .faq-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .site-header {
+    padding: 24px 12px 20px;
+  }
+
+  .site-header__inner,
+  .page-content {
+    width: min(100% - 16px, 1180px);
+  }
+
+  .site-header__inner {
+    padding: 18px;
+    border-radius: 10px;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 28px;
+  }
+
+  .topbar__actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-card__body,
+  .service-card__body,
+  .detail-card,
+  .faq-item__question,
+  .faq-item__answer {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .detail-hero {
+    min-height: 280px;
+    padding: 24px;
+  }
+
+  .main-nav {
+    gap: 18px;
+  }
+
+  .contact-form__grid,
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
